@@ -133,3 +133,28 @@ img {
   transform: scale(1.05);
 }
 
+.gallery-table {
+  margin: 40px auto;
+  border-collapse: collapse; /* merge borders for clean lines */
+  background: #fff;
+  border: 3px solid #000; /* outer border */
+}
+
+.gallery-table td {
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #000; /* black lines between cells */
+}
+
+.gallery-table img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+
+.gallery-table img:hover {
+  transform: scale(1.05);
+}
+
