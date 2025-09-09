@@ -1,7 +1,7 @@
 <!-- 
 Name: Luka Metias
 Date: 09/06/2024
-Description: This is a simple HTML file that demonstrates the structure of a basic webpage.
+Description: This is a simple HTML file that shows my favorite cars.
 -->
 
 
@@ -16,13 +16,10 @@ Description: This is a simple HTML file that demonstrates the structure of a bas
 
 <body>
   <header class="site-header">
-    <h1>Welcome to <span class="accent">Luka's</span> Website</h1>
-    <p class="tagline">Student • car lover • Lifelong Learner</p>
+    <h1>Welcome to my <span class="accent">Car's</span> Website</h1>
     <nav aria-label="Main">
       <ul class="nav">
-        <li><a href="#about">About</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#links">Links</a></li>
+        
       </ul>
     </nav>
   </header>
@@ -39,11 +36,6 @@ Description: This is a simple HTML file that demonstrates the structure of a bas
         simple layouts that look good on phones and laptops. Outside of class, I enjoy small coding
         projects, reading about technology trends as well as new cars.
       </p>
-      <p>
-        On this page I have some examples of structured content with headings, working links, a
-        styled table in the other tab, an image of a car that’s also a link. I wrote this content to be meaningful rather than a
-        random list of tags.
-      </p>
     </section>
     <!-- Gallery (image with link to car.html) -->
     <section id="gallery" class="section">
@@ -52,12 +44,48 @@ Description: This is a simple HTML file that demonstrates the structure of a bas
         <strong>PLEASE PRESS ON THE IMAGE </strong>
       </p>
 
-      <!-- Correct: only one <a> tag -->
-      <a href="car.html" target="_blank" rel="noopener">
-        <img src="image1.webp" alt="A photo I took related to my project." />
+      <!-- this is for the image and the link that takes you to a website -->
+      <a href="https://www.mclaren.com/" target="_blank" rel="noopener">
+        <img src="images/image1.webp" alt="." />
       </a>
     </section>
 
+    <!-- my table with my favorite cars -->
+    <section id="car-table" class="section">
+      <h2>Favorite Cars</h2>
+      <table>
+        <caption>My Favorite Cars</caption>
+        <thead>
+          <tr>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Year</th>
+            <th>Image</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mclaren</td>
+            <td>P1</td>
+            <td>2012</td>
+            <td><img src="images/image2.webp" alt="Mclaren P1" width="200"></td>
+
+          </tr>
+          <tr>
+            <td>Lamborghini </td>
+            <td>Aventador SVJ</td>
+            <td>2019</td>
+          <td><img src="images/image4.webp" alt="Lamborghini" width="200"></td>
+          </tr>
+          <tr>
+            <td>Acura</td>
+            <td>NSX</td>
+            <td>2019</td>
+            <td><img src="images/image3.webp" alt="Acura NSX" width="200"></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
     <!-- Working links list -->
     <section id="links" class="section">

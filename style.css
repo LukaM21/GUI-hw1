@@ -1,7 +1,7 @@
 /*
 File: css/style.css
 Styles for: index.html (GUI Assignment)
-Author: Your Name, youremail@cs.uml.edu
+Author: Luka Metias
 Updated: September 8, 2025
 
 Documentation:
@@ -41,7 +41,7 @@ body {
   width: 100%;
   padding: 1rem 0 0.5rem;
   background: #ffffff;
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid #ffffff;
   text-align: center;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .nav a {
-  color: #1f2937;
+  color: #3a5a88;
   text-decoration: none;
   font-weight: 600;
 }
@@ -63,7 +63,7 @@ body {
 /* ===== Headings & Text ===== */
 h1, h2, h3 { line-height: 1.25; margin: 0 0 0.5rem; }
 p { margin: 0.5rem 0 0.5rem; }
-.caption { font-size: 0.95rem; color: #6b7280; }
+.caption { font-size: 0.95rem; color: #112346; }
 
 /* ===== Table Styling ===== */
 table {
@@ -71,6 +71,7 @@ table {
   border-collapse: collapse;
   background: #ffffff;
   border: 1px solid #e5e7eb;
+  font-family: 'Courier New', Courier, monospace; /* Different font for table */
 }
 caption {
   caption-side: top;
@@ -109,6 +110,10 @@ img {
 /* ===== Small Screens ===== */
 @media (max-width: 560px) {
   .nav { flex-wrap: wrap; justify-content: center; gap: 0.5rem; }
+}
+
+.center-text {
+  text-align: center;
 }
 
 .gallery-grid {
